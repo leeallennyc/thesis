@@ -5,6 +5,6 @@
 <img src="https://github.com/leeallennyc/thesis/blob/main/week1/concept-development/design_thinking_exercise_2.png" alt="concept" title="Concept Development" width=80% height=80% />
 
 
-## First iteration of Mind Map
+## First iteration of Mind Map [PDF](https://github.com/leeallennyc/thesis/blob/main/week1/concept-development/Thesis%20MindMap.pdf)
 --
 <img src="https://github.com/leeallennyc/thesis/blob/main/week1/concept-development/LK_MindMap.png" alt="concept" title="Concept Development" width=80% height=80% />
