@@ -26,3 +26,10 @@
 | Week 14       | Summary: [Week 14](https://github.com/leeallennyc/thesis/tree/main/week14) Assignment (Final Presentation, Refined), + Readings|      
 | Week 15       | Summary: [Week 15](https://github.com/leeallennyc/thesis/tree/main/week15) Assignment (Final Presentation, Final Review), + Readings| 
 | Week 16       | Summary: [Week 16](https://github.com/leeallennyc/thesis/tree/main/week16) Assignment (Keynote Presentations, Written Thesis Due), + Readings|   
+
+---
+* Bibliography Sources:
+
+Financing Innovation in the United States, 1870 to Present, edited by Lamoreaux, Naomi R., Kenneth L. Sokoloff. Cambridge: MIT Press, 2007. http://ebookcentral.proquest.com/lib/newschool/detail.action?docID=3338539.
+
+Nicholas, Tom, author and Tom (Associate professor) Nicholas author. VC : An American History Cambridge, MA : Harvard University Press, 2019.
