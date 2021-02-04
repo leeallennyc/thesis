@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>01-vue</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <style>
+      #app svg {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <input type="text" v-model="search" />
+        <ul>
+          <li v-for="state in filteredStates">
+            {{state}}
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
