@@ -1,3 +1,4 @@
-## Week 3 Concept Development
+## Week 3 Concept Development + Lab
 ---
-Continued:
+
+* 
