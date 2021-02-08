@@ -24,8 +24,9 @@
           :x="xScale(bar.x)"
           :y="height - yScale(bar.y)"
           :height="yScale(bar.y)"
+          :fill="col(bar.y)"
         ></rect>
-        <!--<Axises goes here></scale>-->
+
       </svg>
     </div>
     <script src="./main.js"></script>

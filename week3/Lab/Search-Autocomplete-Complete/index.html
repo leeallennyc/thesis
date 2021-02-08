@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vue.js Autocomplete</title>
+        <link rel="stylesheet" href="reset.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="https://unpkg.com/vue@next"></script>
+    </head>
+    <body>
+        <div id="app">
+            <input type="text" v-model="search" placeholder="Find your state!" v-on:focus="showStates()" v-on:focusout="hideStates()">
+            <ul v-if="statesVisible">
+                <li v-for="state in filteredStates">
+                    <a href="#" @click="complete(state)">{{state}}</a>
+                </li>
+            </ul>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
