@@ -4,6 +4,8 @@
 ---
 * Form sketches for concept-development:
 
-<img src="https://github.com/leeallennyc/thesis/blob/main/week4/concept-development/By_region_clusters_IP_1.jpg" alt="concept" title="clusters" width=80% height=80% />
-<img src="https://github.com/leeallennyc/thesis/blob/main/week4/concept-development/Map_clusters_1.jpg" alt="concept" title="map" width=80% height=80% />
 <img src="https://github.com/leeallennyc/thesis/blob/main/week4/concept-development/IP_Clusters_1.jpg" alt="concept" title="map" width=80% height=80% />
+<img src="https://github.com/leeallennyc/thesis/blob/main/week4/concept-development/Map_clusters_1.jpg" alt="concept" title="map" width=80% height=80% />
+<img src="https://github.com/leeallennyc/thesis/blob/main/week4/concept-development/By_region_clusters_IP_1.jpg" alt="concept" title="clusters" width=80% height=80% />
+
+
