@@ -1,11 +1,22 @@
 <template>
-  <img class="logo" alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld :msg="msg"/>
-  <div class="btn">
-    <el-button type="primary" @click="startHacking">
-      Get Started
-    </el-button>
-  </div>
+<div class="common-layout">
+  <el-container>
+    <el-aside width="200px">Aside</el-aside>
+    <el-container>
+      <el-header>Header</el-header>
+      <el-main>
+        <img class="logo" alt="Vue logo" src="./assets/logo.png">
+          <HelloWorld :msg="msg"/>
+          <div class="btn">
+            <el-button type="primary" @click="startHacking">
+              Get Started
+            </el-button>
+          </div>
+      </el-main>
+      <el-footer>Footer</el-footer>
+    </el-container>
+  </el-container>
+</div>
 </template>
 
 <script>
@@ -45,4 +56,16 @@ export default {
 .btn {
   margin-top: 100px;
 }
+ .el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+  }
+  .el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+  }
 </style>
