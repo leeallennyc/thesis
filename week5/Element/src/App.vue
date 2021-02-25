@@ -1,24 +1,25 @@
 <template>
 <div class="common-layout">
-  <el-container>
-    <el-aside width="300px">Aside</el-aside>
+   <el-container>
+    <el-header>Header</el-header>
     <el-container>
-      <el-header>Header</el-header>
-      <el-main>
+      <el-aside width="300px">Aside</el-aside>
+      <el-container>
+        <el-main>
         <img class="logo" alt="Vue logo" src="./assets/logo.png">
           <HelloWorld :msg="msg"/>
-          <div class="btn">
-            <el-button type="primary" @click="startHacking">
+            <div class="btn">
+              <el-button type="primary" @click="startHacking">
               Get Started
             </el-button>
           </div>
-      </el-main>
-      <el-footer>Footer</el-footer>
+          </el-main>
+        <el-footer>Footer</el-footer>
+      </el-container>
     </el-container>
   </el-container>
 </div>
 </template>
-
 <script>
 import { ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
@@ -67,5 +68,10 @@ export default {
     color: #333;
     text-align: center;
     line-height: 200px;
+  }
+
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
   }
 </style>
