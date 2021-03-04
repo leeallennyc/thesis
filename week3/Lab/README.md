@@ -1,4 +1,4 @@
-# Major Studio 2
+# Major Studio 2 Week 3 Lab
 
 ### Labs:
 
