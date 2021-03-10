@@ -30,18 +30,14 @@
   <el-divider></el-divider>
   <div class="maps">
     <el-card>
-      <svg :height="height" :width="width">
-        <g class="paths" @mouseleave="onHover(null)">
-          <path
-            v-for="feature in map.features"
-            :key="feature.properties.geounit"
-            :d="geoPath(feature)"
-            :fill="colorScale(feature.properties[colorVar])"
-            @mouseenter="onHover(feature.properties)"
-          ></path>
-        </g>
-        <text id="hover" :x="50" :y="50"></text>
-      </svg>
+      <GeoJSON
+       :height= "height"
+       :width= "width"
+       :features="map.features" 
+       :colorScale="colorScale"
+       :colorVar="colorVar"
+      
+      />
     </el-card>
     <el-card>
       <div id="mapbox-container"></div>
@@ -52,13 +48,13 @@
 <script>
 import * as d3 from "d3";
 import mapboxgl from "mapbox-gl";
-// import GeoJSON from './components/GeoJSON.vue';
+import GeoJSON from './components/GeoJSON.vue';
 import map from './africa.geo.json'
 
 export default {
   name: 'App',
   components: {
-    // GeoJSON
+    GeoJSON
   },
   data() {
     return {
@@ -112,22 +108,13 @@ export default {
     })
   },
   computed: {
-    projection() {
-      return d3.geoEqualEarth()
-        .center([18, 4])
-        .scale(320)
-        .translate([this.width/2, this.height/2]);
-    },
-    geoPath() {
-      return d3.geoPath(this.projection);
-    },
     colorDomain() {
-      return Array.from(new Set(map.features.map(d => d.properties[this.colorVar])));
-    },
+        return Array.from(new Set(map.features.map(d => d.properties[this.colorVar])));
+        },
     colorScale() {
-      return d3.scaleOrdinal(d3.schemeBrBG[this.colorDomain.length])
+        return d3.scaleOrdinal(d3.schemeBrBG[this.colorDomain.length])
         .domain(this.colorDomain)
-    },
+        },
     mapboxFillColorSpec() {
       return [
         "to-color", [
@@ -152,16 +139,6 @@ export default {
     }
   },
   methods: {
-    onHover(nextHover) {
-      if (nextHover === null) {
-        d3.select('#hover').text('')
-        return;
-      }
-      const projectedCentroid = this.projection(nextHover.centroid)
-      d3.select('#hover').text(nextHover.admin)
-        .attr('x', projectedCentroid[0])
-        .attr('y', projectedCentroid[1])
-    },
     setColorVar() {
       this.mb.setPaintProperty('countries', 'fill-color', this.mapboxFillColorSpec)
     }
