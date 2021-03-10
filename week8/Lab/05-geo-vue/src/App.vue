@@ -1,7 +1,7 @@
 <template>
 <div class='App'>
   <div class="header">
-    <el-select v-model="colorVar" @change="setColorVar">
+    <el-select v-model="colorVar">
       <el-option
         v-for="v in colorVars"
         :key="v"
@@ -36,25 +36,31 @@
        :features="map.features" 
        :colorScale="colorScale"
        :colorVar="colorVar"
-      
       />
     </el-card>
     <el-card>
-      <div id="mapbox-container"></div>
+      <MapboxMap 
+        :map = "map"
+        :colorScale = "colorScale"
+        :colorDomain="colorDomain"
+        :colorVar="colorVar"
+      />
     </el-card>
   </div>
 </template>
 
 <script>
 import * as d3 from "d3";
-import mapboxgl from "mapbox-gl";
+
 import GeoJSON from './components/GeoJSON.vue';
+import MapboxMap from './components/MapboxMap.vue' 
 import map from './africa.geo.json'
 
 export default {
   name: 'App',
   components: {
-    GeoJSON
+    GeoJSON,
+    MapboxMap
   },
   data() {
     return {
@@ -72,40 +78,11 @@ export default {
       colorVars: ['economy', 'income_grp', 'subregion'],
       width: 400,
       height: 500,
-      mb: null
     }
   },
   mounted() {
-    // https://dev.to/hmintoh/how-to-mapbox-with-vue-js-2a34
-    mapboxgl.accessToken = process.env.VUE_APP_MAPBOX_TOKEN;
 
-    this.mb = new mapboxgl.Map({
-      container: "mapbox-container",
-      style: "mapbox://styles/mapbox/streets-v11",
-      center: [18, 4],
-      zoom: 2,
-      maxBounds: [
-        [-18, -40],
-        [53, 40],
-      ],
-    });
-    
-    this.mb.on('load', () => {
-      this.mb.addSource("countryPaths", {
-        type: "geojson",
-        data: map
-      });
-      
-      this.mb.addLayer({
-        id: 'countries',
-        type: 'fill',
-        source: 'countryPaths',
-        paint: {
-          "fill-opacity": 0.5,
-          "fill-color": this.mapboxFillColorSpec
-        }
-      })
-    })
+
   },
   computed: {
     colorDomain() {
@@ -115,33 +92,9 @@ export default {
         return d3.scaleOrdinal(d3.schemeBrBG[this.colorDomain.length])
         .domain(this.colorDomain)
         },
-    mapboxFillColorSpec() {
-      return [
-        "to-color", [
-          "at", 
-          [
-            "index-of", 
-            [
-              "get", 
-              this.colorVar
-            ],
-            [
-              "literal",
-              this.colorDomain
-            ]
-          ], 
-          [
-            "literal", 
-            this.colorScale.range()
-          ]
-        ]
-      ]
-    }
+    
   },
   methods: {
-    setColorVar() {
-      this.mb.setPaintProperty('countries', 'fill-color', this.mapboxFillColorSpec)
-    }
   }
 }
 </script>
