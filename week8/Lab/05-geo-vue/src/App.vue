@@ -1,9 +1,6 @@
 <template>
 <div class='App'>
   <div class="header">
-    <div class="legend">
-      Legend Here
-    </div>
     <el-select v-model="colorVar" @change="setColorVar">
       <el-option
         v-for="v in colorVars"
@@ -13,6 +10,22 @@
         :value="v"
       ></el-option>
     </el-select>
+     <div class="legend">
+      <div
+        v-for= "color in colorDomain"
+        class= "legend-item"
+        :key="color"
+      >
+        <div
+        class= "legend-item-color"
+        :style= "{backgroundColor: colorScale(color)}"
+        ></div>
+        <div
+        class = "legend-item-text"
+        >{{ color }}</div>
+        </div>
+      </div>
+    </div>
   </div>
   <el-divider></el-divider>
   <div class="maps">
@@ -34,7 +47,6 @@
       <div id="mapbox-container"></div>
     </el-card>
   </div>
-</div>
 </template>
 
 <script>
@@ -173,10 +185,29 @@ export default {
   .legend {
     margin: 10px;
   }
+  
+  .legend-item {
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .legend-item-color {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+  }
+  
+  .legend-item-text {
+    margin: 5px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  
   .maps {
     display: flex;
     justify-content: space-around;
   }
+  
   #mapbox-container {
     height: 500px;
     width: 400px;
