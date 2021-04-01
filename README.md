@@ -32,4 +32,4 @@
 
 Financing Innovation in the United States, 1870 to Present, edited by Lamoreaux, Naomi R., Kenneth L. Sokoloff. Cambridge: MIT Press, 2007. http://ebookcentral.proquest.com/lib/newschool/detail.action?docID=3338539.
 
-Nicholas, Tom, author and Tom (Associate professor) Nicholas author. VC : An American History Cambridge, MA : Harvard University Press, 2019.
+Nicholas, Tom, author and Tom (Associate professor) Nicholas author. VC : An American History Cambridge, MA : Harvard University Press, 2019..
