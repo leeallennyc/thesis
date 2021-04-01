@@ -17,6 +17,7 @@ Without mentioning the communities affected by the dispersion of AI technologies
 ---
 
 ### Project Preview
+![](https://github.com/leeallennyc/thesis/blob/main/README.md_assets/IP-GAN.gif)
 
 ---
 
