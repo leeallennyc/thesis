@@ -27,8 +27,3 @@
 | Week 16       | Summary: [Week 16](https://github.com/leeallennyc/thesis/tree/main/assignments/week16) Assignment (Keynote Presentations, Written Thesis Due), + Readings|   
 
 ---
-* Bibliography Sources:
-
-Financing Innovation in the United States, 1870 to Present, edited by Lamoreaux, Naomi R., Kenneth L. Sokoloff. Cambridge: MIT Press, 2007. http://ebookcentral.proquest.com/lib/newschool/detail.action?docID=3338539.
-
-Nicholas, Tom, author and Tom (Associate professor) Nicholas author. VC : An American History Cambridge, MA : Harvard University Press, 2019..
