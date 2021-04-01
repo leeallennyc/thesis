@@ -2,7 +2,7 @@
 ---
 Setting up Zotero, Refworks, and research systems.
 
-<img src="https://github.com/leeallennyc/thesis/blob/main/week2/concept-development/Zotero.png" alt="concept" title="Zotero" width=80% height=80% />
+<img src="https://github.com/leeallennyc/thesis/blob/main/assignments/week2/concept-development/Zotero.png" alt="concept" title="Zotero" width=80% height=80% />
 
 ---
 ### Starting Research Proposition
