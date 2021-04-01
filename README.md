@@ -1,35 +1,31 @@
-# Parsons Data Visualization MS 
-## Major Studio 2 - Thesis
-* Faculty: Daniel Sauter    
-* Teaching Assistant: Sohee Cho
-* Term: Spring 2021 - 1/19/2021 - 5/14/2021
+# Signals From the Future
 ---
-### Summary 
-* Documentation and weekly updates PGDV 5210, Major Studio 2, CRN: 2827
+## Mapping AI Patent Landscapes
+By Lee Kuczewski | Parsons School of Design 2021 | Data Visualization
+---
+### Abstract
+--- 
+This thesis visualizes AI-related patent filings by geographic region in the United States between 2000-2020 to better understand the landscape and asymmetries existing throughout regional clusters.
+
+Inventions are signals from the future, as much as they are from the past. They provide us with a barometer for measuring the patterns of economic activity, policy direction, and competitive moat-building by international companies and governments across the world. These visual explorations will serve to connect policy makers, investors, entrepreneurs and academic commercialization offices with opportunities to make better decisions, bring ideas to market, and grow the economy sustainably within the United States.
+
+Without mentioning the communities affected by the dispersion of AI technologies would be a great disservice. There is an even greater need for accelerating education within underrepresented communities; where patents are not being filed. I argue for an increasing need to create an international definition for AI-assisted inventions, and for the creation of an intellectual property commons, which is funded by corporate profitability of AI technologies in order to address the shorter-term inequalities which will result from the displacement due to skills-bias, and other labor demand asymmetries. Redistribution from gains within the short-term will help buffer the problems created by these technologies. I’m optimistic that the advances created by AI as seen through this patent landscape will be a net positive for more developed countries, and there needs to be a framework established to help developing nations and underrepresented communities to benefit in the long-term as well.
+---
+### Project Preview
 ---
 
-| Week          | Summary of Changes|   
-| ------------- |:----------------- | 
-| Week 1        | Summary: [Week 1](https://github.com/leeallennyc/thesis/tree/main/week1) Assignment (Introduction & Concept Development), + Readings| 
-| Week 2        | Summary: [Week 2](https://github.com/leeallennyc/thesis/tree/main/week2) Assignment (Concept Development, AWS Cloud 9, Bibliography Management), + Readings|   
-| Week 3        | Summary: [Week 3](https://github.com/leeallennyc/thesis/tree/main/week3) Assignment (Concept Development, Lab), + Readings|  
-| Week 4        | Summary: [Week 4](https://github.com/leeallennyc/thesis/tree/main/week4) Assignment (Concept Development, Lab), + Readings|
-| Week 5        | Summary: [Week 5](https://github.com/leeallennyc/thesis/tree/main/week5) Assignment (Design Development, Prototyping), + Readings|   
-| Week 6        | Summary: [Week 6](https://github.com/leeallennyc/thesis/tree/main/week6) Assignment (Design Development, Lab), + Readings|          
-| Week 7        | Summary: [Week 7](https://github.com/leeallennyc/thesis/tree/main/week7) Assignment (Design Development, Lab), + Readings| 
-| Week 8        | Summary: [Week 8](https://github.com/leeallennyc/thesis/tree/main/week8) Assignment (Design Development, Written Thesis Draft), + Readings|       
-| Week 9        | Summary: [Week 9](https://github.com/leeallennyc/thesis/tree/main/week9) Assignment (Design Refinement, Written Thesis Draft), + Readings|      
-| Week 10       | Summary: [Week 10](https://github.com/leeallennyc/thesis/tree/main/week10) Assignment (Design Refinement, Lab), + Readings| 
-| Week 11       | Summary: [Week 11](https://github.com/leeallennyc/thesis/tree/main/week11) Assignment (Design Refinement, Data Visualization: WIP), + Readings|   
-| Week 12       | Summary: [Week 12](https://github.com/leeallennyc/thesis/tree/main/week12) Assignment (Final Presentation), + Readings|
-| Week 13        | Summary: [Week 13](https://github.com/leeallennyc/thesis/tree/main/week13) Assignment (Final Presentation + Lab), + Readings|       
-| Week 14       | Summary: [Week 14](https://github.com/leeallennyc/thesis/tree/main/week14) Assignment (Final Presentation, Refined), + Readings|      
-| Week 15       | Summary: [Week 15](https://github.com/leeallennyc/thesis/tree/main/week15) Assignment (Final Presentation, Final Review), + Readings| 
-| Week 16       | Summary: [Week 16](https://github.com/leeallennyc/thesis/tree/main/week16) Assignment (Keynote Presentations, Written Thesis Due), + Readings|   
+
+
+
 
 ---
-* Bibliography Sources:
+### Acknowledgements
+Thank you Daniel Sauter and Aaron Hill for your teachings, guidance, and dedication to the program. 
 
-Financing Innovation in the United States, 1870 to Present, edited by Lamoreaux, Naomi R., Kenneth L. Sokoloff. Cambridge: MIT Press, 2007. http://ebookcentral.proquest.com/lib/newschool/detail.action?docID=3338539.
+To my classmates, who inspired and amazed me time and time again in their dedication and talents. Zhibang Jiang, Inhye Lee, and Seungyu Paik (Soonk), I'm indebted to your long conversations and for teaching me to see things that weren't there.   
 
-Nicholas, Tom, author and Tom (Associate professor) Nicholas author. VC : An American History Cambridge, MA : Harvard University Press, 2019..
+To Nahum Smith, for his bright and illuminating generosity to always lend a hand. 
+
+This would not have been possible without my wife, Cléa -- you are truly the blessing of my life.
+
+I would also like to thank the team at Lens.org, the USPTO, and Stephen Metts for his guidance in GIS and mapping expertise. 
