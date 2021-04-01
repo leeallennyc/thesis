@@ -7,7 +7,6 @@
 ### Summary 
 * Documentation and weekly updates PGDV 5210, Major Studio 2, CRN: 2827
 ---
-
 | Week          | Summary of Changes|   
 | ------------- |:----------------- | 
 | Week 1        | Summary: [Week 1](https://github.com/leeallennyc/thesis/tree/main/assignments/week1) Assignment (Introduction & Concept Development), + Readings| 
