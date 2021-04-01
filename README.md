@@ -1,8 +1,6 @@
 # Signals From the Future
 ## Mapping AI Patent Landscapes
 
----
-
 By Lee Kuczewski | Parsons School of Design 2021 | Data Visualization
 
 ---
@@ -19,12 +17,6 @@ Without mentioning the communities affected by the dispersion of AI technologies
 ---
 
 ### Project Preview
-
----
-
-
-
-
 
 ---
 
