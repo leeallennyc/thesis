@@ -31,3 +31,7 @@ To Nahum Smith, for his bright and illuminating generosity to always lend a hand
 This would not have been possible without my wife, Cléa -- you are truly the blessing of my life.
 
 I would also like to thank the team at Lens.org, the USPTO, and Stephen Metts for his guidance in GIS and mapping expertise. 
+
+---
+
+Submitted in partial fulfillment of the requirements for the degree of Master Science in Data Visualization at Parsons School of Design // May 2021
