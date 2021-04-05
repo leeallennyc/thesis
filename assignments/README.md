@@ -21,7 +21,7 @@
 | Week 10       | Summary: [Week 10](https://github.com/leeallennyc/thesis/tree/main/assignments/week10) Assignment (Design Refinement, Lab), + Readings| 
 | Week 11       | Summary: [Week 11](https://github.com/leeallennyc/thesis/tree/main/assignments/week11) Assignment (Design Refinement, Data Visualization: WIP), + Readings|   
 | Week 12       | Summary: [Week 12](https://github.com/leeallennyc/thesis/tree/main/assignments/week12) Assignment (Final Presentation), + Readings|
-| Week 13        | Summary: [Week 13](https://github.com/leeallennyc/thesis/tree/main/assignments/week13) Assignment (Final Presentation + Lab), + Readings|       
+| Week 13       | Summary: [Week 13](https://github.com/leeallennyc/thesis/tree/main/assignments/week13) Assignment (Final Presentation + Lab), + Readings|       
 | Week 14       | Summary: [Week 14](https://github.com/leeallennyc/thesis/tree/main/assignments/week14) Assignment (Final Presentation, Refined), + Readings|      
 | Week 15       | Summary: [Week 15](https://github.com/leeallennyc/thesis/tree/main/assignments/week15) Assignment (Final Presentation, Final Review), + Readings| 
 | Week 16       | Summary: [Week 16](https://github.com/leeallennyc/thesis/tree/main/assignments/week16) Assignment (Keynote Presentations, Written Thesis Due), + Readings|   

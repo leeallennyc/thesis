@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>Mapbox Storytelling</title>
+    <title>Mapping AI Patents</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
@@ -239,6 +239,7 @@ mapboxgl.accessToken = config.accessToken;
 const transformRequest = (url) => {
     const hasQuery = url.indexOf("?") !== -1;
     const suffix = hasQuery ? "&pluginName=scrollytellingV2" : "?pluginName=scrollytellingV2";
+
     return {
       url: url + suffix
     }
@@ -297,6 +298,7 @@ map.on("load", function() {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
         map[chapter.mapAnimation || 'flyTo'](chapter.location);
+
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
         }
