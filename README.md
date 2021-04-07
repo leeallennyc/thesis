@@ -1,7 +1,8 @@
 # Signals From the Future
 ## Mapping AI Patent Landscapes
 
-By Lee Kuczewski | Parsons School of Design 2021 | Data Visualization
+By Lee Kuczewski | [Project Site](https://leeallennyc.github.io/thesis) | Parsons School of Design 2021 | [Data Visualization](https://parsons.nyc/thesis-2021/)
+ 
 
 ---
 
