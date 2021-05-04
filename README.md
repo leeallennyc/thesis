@@ -1,7 +1,7 @@
 # Signals From the Future
 ## Mapping AI Patent Landscapes
 
-By Lee Kuczewski | [Project Site](https://leeallennyc.github.io/thesis) | [Parsons School of Design Data Visualization 2021](https://parsons.nyc/thesis-2021/) 
+By Lee Kuczewski | [Project Site](https://leeallennyc.github.io/signalsfromthefuture/#/) | [Parsons School of Design Data Visualization 2021](https://parsons.nyc/thesis-2021/) 
  
 
 ---
@@ -10,7 +10,7 @@ By Lee Kuczewski | [Project Site](https://leeallennyc.github.io/thesis) | [Parso
 
 --- 
 
-This thesis visualizes AI-related patent filings by geographic region in the United States between 2000-2020 to better understand the landscape and asymmetries existing throughout regional clusters.
+This thesis visualizes AI-related patent filings by geographic region in the United States between 2016-2020 to better understand the landscape and asymmetries existing throughout regional clusters.
 
 Inventions are signals from the future, as much as they are from the past. They provide us with a barometer for measuring the patterns of economic activity, policy direction, and competitive moat-building by international companies and governments across the world. These visual explorations will serve to connect policy makers, investors, entrepreneurs and academic commercialization offices with opportunities to make better decisions, bring ideas to market, and grow the economy sustainably within the United States.
 
